@@ -1,0 +1,26 @@
+analysis of data points collected over time to understand patterns and future behaviour.
+
+structure:
+- trend [ long term movement in data ]
+- seasonality [ patterns repeating at regular intervals ]
+- cyclic behaviour [ long term oscillations ]
+- randomness [ unpredictable fluctuations ]
+
+types:
+- univariate [ only 1 variable changes overtime ]
+- multivariate [ multiple variables evolve together ]
+
+stationarity: constant mean, variance and autocorrelation structure
+non stationary data: trends, changing variances, structural breaks
+
+autocorrelation: measures how current values relate to past values
+
+forecasting steps:
+- collect data
+- visualize data
+- check stationarity
+- tranform data if needed
+- choose model
+- train model
+- test accuracy
+- forecast future values
